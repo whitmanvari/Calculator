@@ -82,7 +82,7 @@
             this.pnl_exit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_exit.Name = "pnl_exit";
             this.pnl_exit.Size = new System.Drawing.Size(49, 27);
-            this.pnl_exit.TabIndex = 0;
+            this.pnl_exit.TabIndex = 3;
             this.pnl_exit.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_exit_Paint);
             // 
             // pnl_maximize
@@ -95,7 +95,7 @@
             this.pnl_maximize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_maximize.Name = "pnl_maximize";
             this.pnl_maximize.Size = new System.Drawing.Size(49, 27);
-            this.pnl_maximize.TabIndex = 1;
+            this.pnl_maximize.TabIndex = 2;
             this.pnl_maximize.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_maximize_Paint);
             // 
             // pnl_minimize
@@ -108,7 +108,7 @@
             this.pnl_minimize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_minimize.Name = "pnl_minimize";
             this.pnl_minimize.Size = new System.Drawing.Size(49, 27);
-            this.pnl_minimize.TabIndex = 2;
+            this.pnl_minimize.TabIndex = 1;
             this.pnl_minimize.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_minimize_Paint);
             // 
             // label1
@@ -143,7 +143,7 @@
             this.btn_showHistory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_showHistory.Name = "btn_showHistory";
             this.btn_showHistory.Size = new System.Drawing.Size(44, 33);
-            this.btn_showHistory.TabIndex = 5;
+            this.btn_showHistory.TabIndex = 4;
             // 
             // btn_cos
             // 
@@ -155,7 +155,7 @@
             this.btn_cos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_cos.Name = "btn_cos";
             this.btn_cos.Size = new System.Drawing.Size(44, 33);
-            this.btn_cos.TabIndex = 7;
+            this.btn_cos.TabIndex = 8;
             // 
             // btn_sin
             // 
@@ -167,7 +167,7 @@
             this.btn_sin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_sin.Name = "btn_sin";
             this.btn_sin.Size = new System.Drawing.Size(44, 33);
-            this.btn_sin.TabIndex = 8;
+            this.btn_sin.TabIndex = 9;
             // 
             // btn_tan
             // 
@@ -179,7 +179,7 @@
             this.btn_tan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_tan.Name = "btn_tan";
             this.btn_tan.Size = new System.Drawing.Size(44, 33);
-            this.btn_tan.TabIndex = 9;
+            this.btn_tan.TabIndex = 10;
             // 
             // btn_ctg
             // 
@@ -191,7 +191,7 @@
             this.btn_ctg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_ctg.Name = "btn_ctg";
             this.btn_ctg.Size = new System.Drawing.Size(44, 33);
-            this.btn_ctg.TabIndex = 10;
+            this.btn_ctg.TabIndex = 11;
             // 
             // btn_sec
             // 
@@ -203,7 +203,7 @@
             this.btn_sec.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_sec.Name = "btn_sec";
             this.btn_sec.Size = new System.Drawing.Size(44, 33);
-            this.btn_sec.TabIndex = 11;
+            this.btn_sec.TabIndex = 12;
             // 
             // btn_percent
             // 
@@ -215,7 +215,7 @@
             this.btn_percent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_percent.Name = "btn_percent";
             this.btn_percent.Size = new System.Drawing.Size(44, 33);
-            this.btn_percent.TabIndex = 16;
+            this.btn_percent.TabIndex = 17;
             // 
             // btn_sqrt
             // 
@@ -227,7 +227,7 @@
             this.btn_sqrt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_sqrt.Name = "btn_sqrt";
             this.btn_sqrt.Size = new System.Drawing.Size(44, 33);
-            this.btn_sqrt.TabIndex = 15;
+            this.btn_sqrt.TabIndex = 16;
             // 
             // btn_nine
             // 
@@ -239,7 +239,7 @@
             this.btn_nine.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_nine.Name = "btn_nine";
             this.btn_nine.Size = new System.Drawing.Size(44, 33);
-            this.btn_nine.TabIndex = 14;
+            this.btn_nine.TabIndex = 15;
             // 
             // btn_eigth
             // 
@@ -251,7 +251,7 @@
             this.btn_eigth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_eigth.Name = "btn_eigth";
             this.btn_eigth.Size = new System.Drawing.Size(44, 33);
-            this.btn_eigth.TabIndex = 13;
+            this.btn_eigth.TabIndex = 14;
             // 
             // btn_seven
             // 
@@ -263,7 +263,7 @@
             this.btn_seven.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_seven.Name = "btn_seven";
             this.btn_seven.Size = new System.Drawing.Size(44, 33);
-            this.btn_seven.TabIndex = 12;
+            this.btn_seven.TabIndex = 13;
             // 
             // btn_multiply
             // 
@@ -275,7 +275,7 @@
             this.btn_multiply.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_multiply.Name = "btn_multiply";
             this.btn_multiply.Size = new System.Drawing.Size(44, 33);
-            this.btn_multiply.TabIndex = 21;
+            this.btn_multiply.TabIndex = 23;
             // 
             // btn_minus
             // 
@@ -287,7 +287,7 @@
             this.btn_minus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_minus.Name = "btn_minus";
             this.btn_minus.Size = new System.Drawing.Size(44, 33);
-            this.btn_minus.TabIndex = 20;
+            this.btn_minus.TabIndex = 22;
             // 
             // btn_six
             // 
@@ -299,7 +299,7 @@
             this.btn_six.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_six.Name = "btn_six";
             this.btn_six.Size = new System.Drawing.Size(44, 33);
-            this.btn_six.TabIndex = 19;
+            this.btn_six.TabIndex = 21;
             // 
             // btn_five
             // 
@@ -311,7 +311,7 @@
             this.btn_five.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_five.Name = "btn_five";
             this.btn_five.Size = new System.Drawing.Size(44, 33);
-            this.btn_five.TabIndex = 18;
+            this.btn_five.TabIndex = 20;
             // 
             // btn_four
             // 
@@ -323,7 +323,7 @@
             this.btn_four.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_four.Name = "btn_four";
             this.btn_four.Size = new System.Drawing.Size(44, 33);
-            this.btn_four.TabIndex = 17;
+            this.btn_four.TabIndex = 19;
             // 
             // btn_plus
             // 
@@ -335,7 +335,7 @@
             this.btn_plus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_plus.Name = "btn_plus";
             this.btn_plus.Size = new System.Drawing.Size(44, 33);
-            this.btn_plus.TabIndex = 26;
+            this.btn_plus.TabIndex = 29;
             // 
             // btn_divide
             // 
@@ -347,7 +347,7 @@
             this.btn_divide.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_divide.Name = "btn_divide";
             this.btn_divide.Size = new System.Drawing.Size(44, 33);
-            this.btn_divide.TabIndex = 25;
+            this.btn_divide.TabIndex = 28;
             // 
             // btn_three
             // 
@@ -359,7 +359,7 @@
             this.btn_three.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_three.Name = "btn_three";
             this.btn_three.Size = new System.Drawing.Size(44, 33);
-            this.btn_three.TabIndex = 24;
+            this.btn_three.TabIndex = 27;
             // 
             // btn_two
             // 
@@ -371,7 +371,7 @@
             this.btn_two.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_two.Name = "btn_two";
             this.btn_two.Size = new System.Drawing.Size(44, 33);
-            this.btn_two.TabIndex = 23;
+            this.btn_two.TabIndex = 26;
             // 
             // btn_one
             // 
@@ -383,7 +383,7 @@
             this.btn_one.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_one.Name = "btn_one";
             this.btn_one.Size = new System.Drawing.Size(44, 33);
-            this.btn_one.TabIndex = 22;
+            this.btn_one.TabIndex = 25;
             // 
             // btn_equal
             // 
@@ -395,7 +395,7 @@
             this.btn_equal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_equal.Name = "btn_equal";
             this.btn_equal.Size = new System.Drawing.Size(203, 33);
-            this.btn_equal.TabIndex = 30;
+            this.btn_equal.TabIndex = 33;
             // 
             // btn_dot
             // 
@@ -407,7 +407,7 @@
             this.btn_dot.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_dot.Name = "btn_dot";
             this.btn_dot.Size = new System.Drawing.Size(44, 33);
-            this.btn_dot.TabIndex = 28;
+            this.btn_dot.TabIndex = 32;
             // 
             // btn_zero
             // 
@@ -419,7 +419,7 @@
             this.btn_zero.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_zero.Name = "btn_zero";
             this.btn_zero.Size = new System.Drawing.Size(44, 33);
-            this.btn_zero.TabIndex = 27;
+            this.btn_zero.TabIndex = 31;
             // 
             // btn_redo
             // 
@@ -431,7 +431,7 @@
             this.btn_redo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_redo.Name = "btn_redo";
             this.btn_redo.Size = new System.Drawing.Size(44, 33);
-            this.btn_redo.TabIndex = 35;
+            this.btn_redo.TabIndex = 6;
             // 
             // btn_deleteAll
             // 
@@ -443,7 +443,7 @@
             this.btn_deleteAll.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_deleteAll.Name = "btn_deleteAll";
             this.btn_deleteAll.Size = new System.Drawing.Size(44, 33);
-            this.btn_deleteAll.TabIndex = 34;
+            this.btn_deleteAll.TabIndex = 5;
             // 
             // btn_pi
             // 
@@ -455,7 +455,7 @@
             this.btn_pi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_pi.Name = "btn_pi";
             this.btn_pi.Size = new System.Drawing.Size(44, 33);
-            this.btn_pi.TabIndex = 33;
+            this.btn_pi.TabIndex = 18;
             // 
             // btn_ceilingRound
             // 
@@ -467,7 +467,7 @@
             this.btn_ceilingRound.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_ceilingRound.Name = "btn_ceilingRound";
             this.btn_ceilingRound.Size = new System.Drawing.Size(44, 33);
-            this.btn_ceilingRound.TabIndex = 32;
+            this.btn_ceilingRound.TabIndex = 24;
             // 
             // btn_floorRound
             // 
@@ -479,7 +479,7 @@
             this.btn_floorRound.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_floorRound.Name = "btn_floorRound";
             this.btn_floorRound.Size = new System.Drawing.Size(44, 33);
-            this.btn_floorRound.TabIndex = 31;
+            this.btn_floorRound.TabIndex = 30;
             // 
             // btn_square
             // 
@@ -491,7 +491,7 @@
             this.btn_square.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_square.Name = "btn_square";
             this.btn_square.Size = new System.Drawing.Size(44, 33);
-            this.btn_square.TabIndex = 36;
+            this.btn_square.TabIndex = 7;
             // 
             // pnl_numbers_operations
             // 
