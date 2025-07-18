@@ -10,7 +10,7 @@ namespace Calculator.Helpers
 {
     public class ButtonHelper
     {
-        public static void NumberClicked(FlowLayoutPanel button, string number, CalculatorModel model, Label result)
+        public static void NumberClicked(FlowLayoutPanel button, string number, CalculatorModel model, Panel result)
         {
             button.Click += (sender, e) =>
             {
@@ -24,7 +24,7 @@ namespace Calculator.Helpers
 
             };
         }
-        public static void OperationsClicked(FlowLayoutPanel button, string operation, CalculatorModel model, Label result)
+        public static void OperationsClicked(FlowLayoutPanel button, string operation, CalculatorModel model, Panel result)
         {
             button.Click += (sender, e) =>
             {
