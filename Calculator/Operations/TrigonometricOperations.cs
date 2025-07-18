@@ -14,7 +14,5 @@ namespace Calculator.Operations
         public static double Csc(double num) => 1 / Math.Sin(num);
         public static double Sec(double num) => 1 / Math.Cos(num);
         public static double Cot(double num) => 1 / Math.Tan(num);
-        
-
     }
 }
