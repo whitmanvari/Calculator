@@ -34,42 +34,42 @@
             this.pnl_minimize = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel19 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel20 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel21 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel22 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel23 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel24 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel27 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel29 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel30 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel26 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel31 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel32 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel33 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel34 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_showHistory = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_cos = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_sin = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_tan = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_ctg = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_sec = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_percent = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_sqrt = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_nine = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_eigth = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_seven = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_multiply = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_minus = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_six = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_five = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_four = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_plus = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_divide = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_three = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_two = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_one = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_equal = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_dot = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_zero = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_redo = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_deleteAll = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_pi = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_ceilingRound = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_floorRound = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_square = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnl_numbers_operations = new System.Windows.Forms.Panel();
+            this.pnl_results = new System.Windows.Forms.Panel();
             this.pnl_result = new System.Windows.Forms.Panel();
             this.pnl_simultaneousResult = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnl_numbers_operations.SuspendLayout();
+            this.pnl_results.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_exit
@@ -133,413 +133,413 @@
             this.flowLayoutPanel3.Size = new System.Drawing.Size(44, 27);
             this.flowLayoutPanel3.TabIndex = 4;
             // 
-            // flowLayoutPanel4
+            // btn_showHistory
             // 
-            this.flowLayoutPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel4.BackgroundImage")));
-            this.flowLayoutPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(24, 37);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel4.TabIndex = 5;
+            this.btn_showHistory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_showHistory.BackgroundImage")));
+            this.btn_showHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_showHistory.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_showHistory.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_showHistory.Location = new System.Drawing.Point(24, 37);
+            this.btn_showHistory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_showHistory.Name = "btn_showHistory";
+            this.btn_showHistory.Size = new System.Drawing.Size(44, 33);
+            this.btn_showHistory.TabIndex = 5;
             // 
-            // flowLayoutPanel6
+            // btn_cos
             // 
-            this.flowLayoutPanel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel6.BackgroundImage")));
-            this.flowLayoutPanel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(74, 78);
-            this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel6.TabIndex = 7;
+            this.btn_cos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cos.BackgroundImage")));
+            this.btn_cos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_cos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_cos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_cos.Location = new System.Drawing.Point(74, 78);
+            this.btn_cos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_cos.Name = "btn_cos";
+            this.btn_cos.Size = new System.Drawing.Size(44, 33);
+            this.btn_cos.TabIndex = 7;
             // 
-            // flowLayoutPanel7
+            // btn_sin
             // 
-            this.flowLayoutPanel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel7.BackgroundImage")));
-            this.flowLayoutPanel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel7.Location = new System.Drawing.Point(124, 78);
-            this.flowLayoutPanel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel7.TabIndex = 8;
+            this.btn_sin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_sin.BackgroundImage")));
+            this.btn_sin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_sin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_sin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_sin.Location = new System.Drawing.Point(124, 78);
+            this.btn_sin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_sin.Name = "btn_sin";
+            this.btn_sin.Size = new System.Drawing.Size(44, 33);
+            this.btn_sin.TabIndex = 8;
             // 
-            // flowLayoutPanel8
+            // btn_tan
             // 
-            this.flowLayoutPanel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel8.BackgroundImage")));
-            this.flowLayoutPanel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(174, 78);
-            this.flowLayoutPanel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel8.TabIndex = 9;
+            this.btn_tan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_tan.BackgroundImage")));
+            this.btn_tan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_tan.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_tan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_tan.Location = new System.Drawing.Point(174, 78);
+            this.btn_tan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_tan.Name = "btn_tan";
+            this.btn_tan.Size = new System.Drawing.Size(44, 33);
+            this.btn_tan.TabIndex = 9;
             // 
-            // flowLayoutPanel9
+            // btn_ctg
             // 
-            this.flowLayoutPanel9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel9.BackgroundImage")));
-            this.flowLayoutPanel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel9.Location = new System.Drawing.Point(233, 78);
-            this.flowLayoutPanel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel9.Name = "flowLayoutPanel9";
-            this.flowLayoutPanel9.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel9.TabIndex = 10;
+            this.btn_ctg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_ctg.BackgroundImage")));
+            this.btn_ctg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_ctg.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_ctg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_ctg.Location = new System.Drawing.Point(233, 78);
+            this.btn_ctg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_ctg.Name = "btn_ctg";
+            this.btn_ctg.Size = new System.Drawing.Size(44, 33);
+            this.btn_ctg.TabIndex = 10;
             // 
-            // flowLayoutPanel10
+            // btn_sec
             // 
-            this.flowLayoutPanel10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel10.BackgroundImage")));
-            this.flowLayoutPanel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel10.Location = new System.Drawing.Point(283, 78);
-            this.flowLayoutPanel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel10.Name = "flowLayoutPanel10";
-            this.flowLayoutPanel10.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel10.TabIndex = 11;
+            this.btn_sec.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_sec.BackgroundImage")));
+            this.btn_sec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_sec.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_sec.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_sec.Location = new System.Drawing.Point(283, 78);
+            this.btn_sec.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_sec.Name = "btn_sec";
+            this.btn_sec.Size = new System.Drawing.Size(44, 33);
+            this.btn_sec.TabIndex = 11;
             // 
-            // flowLayoutPanel11
+            // btn_percent
             // 
-            this.flowLayoutPanel11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel11.BackgroundImage")));
-            this.flowLayoutPanel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel11.Location = new System.Drawing.Point(233, 119);
-            this.flowLayoutPanel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel11.Name = "flowLayoutPanel11";
-            this.flowLayoutPanel11.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel11.TabIndex = 16;
+            this.btn_percent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_percent.BackgroundImage")));
+            this.btn_percent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_percent.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_percent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_percent.Location = new System.Drawing.Point(233, 119);
+            this.btn_percent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_percent.Name = "btn_percent";
+            this.btn_percent.Size = new System.Drawing.Size(44, 33);
+            this.btn_percent.TabIndex = 16;
             // 
-            // flowLayoutPanel12
+            // btn_sqrt
             // 
-            this.flowLayoutPanel12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel12.BackgroundImage")));
-            this.flowLayoutPanel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel12.Location = new System.Drawing.Point(174, 119);
-            this.flowLayoutPanel12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel12.TabIndex = 15;
+            this.btn_sqrt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_sqrt.BackgroundImage")));
+            this.btn_sqrt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_sqrt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_sqrt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_sqrt.Location = new System.Drawing.Point(174, 119);
+            this.btn_sqrt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_sqrt.Name = "btn_sqrt";
+            this.btn_sqrt.Size = new System.Drawing.Size(44, 33);
+            this.btn_sqrt.TabIndex = 15;
             // 
-            // flowLayoutPanel13
+            // btn_nine
             // 
-            this.flowLayoutPanel13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel13.BackgroundImage")));
-            this.flowLayoutPanel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel13.Location = new System.Drawing.Point(124, 119);
-            this.flowLayoutPanel13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
-            this.flowLayoutPanel13.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel13.TabIndex = 14;
+            this.btn_nine.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_nine.BackgroundImage")));
+            this.btn_nine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_nine.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_nine.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_nine.Location = new System.Drawing.Point(124, 119);
+            this.btn_nine.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_nine.Name = "btn_nine";
+            this.btn_nine.Size = new System.Drawing.Size(44, 33);
+            this.btn_nine.TabIndex = 14;
             // 
-            // flowLayoutPanel14
+            // btn_eigth
             // 
-            this.flowLayoutPanel14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel14.BackgroundImage")));
-            this.flowLayoutPanel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel14.Location = new System.Drawing.Point(74, 119);
-            this.flowLayoutPanel14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel14.Name = "flowLayoutPanel14";
-            this.flowLayoutPanel14.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel14.TabIndex = 13;
+            this.btn_eigth.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eigth.BackgroundImage")));
+            this.btn_eigth.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_eigth.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_eigth.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_eigth.Location = new System.Drawing.Point(74, 119);
+            this.btn_eigth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_eigth.Name = "btn_eigth";
+            this.btn_eigth.Size = new System.Drawing.Size(44, 33);
+            this.btn_eigth.TabIndex = 13;
             // 
-            // flowLayoutPanel15
+            // btn_seven
             // 
-            this.flowLayoutPanel15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel15.BackgroundImage")));
-            this.flowLayoutPanel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel15.Location = new System.Drawing.Point(24, 119);
-            this.flowLayoutPanel15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel15.Name = "flowLayoutPanel15";
-            this.flowLayoutPanel15.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel15.TabIndex = 12;
+            this.btn_seven.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_seven.BackgroundImage")));
+            this.btn_seven.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_seven.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_seven.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_seven.Location = new System.Drawing.Point(24, 119);
+            this.btn_seven.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_seven.Name = "btn_seven";
+            this.btn_seven.Size = new System.Drawing.Size(44, 33);
+            this.btn_seven.TabIndex = 12;
             // 
-            // flowLayoutPanel16
+            // btn_multiply
             // 
-            this.flowLayoutPanel16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel16.BackgroundImage")));
-            this.flowLayoutPanel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel16.Location = new System.Drawing.Point(233, 160);
-            this.flowLayoutPanel16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel16.Name = "flowLayoutPanel16";
-            this.flowLayoutPanel16.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel16.TabIndex = 21;
+            this.btn_multiply.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_multiply.BackgroundImage")));
+            this.btn_multiply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_multiply.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_multiply.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_multiply.Location = new System.Drawing.Point(233, 160);
+            this.btn_multiply.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_multiply.Name = "btn_multiply";
+            this.btn_multiply.Size = new System.Drawing.Size(44, 33);
+            this.btn_multiply.TabIndex = 21;
             // 
-            // flowLayoutPanel17
+            // btn_minus
             // 
-            this.flowLayoutPanel17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel17.BackgroundImage")));
-            this.flowLayoutPanel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel17.Location = new System.Drawing.Point(174, 160);
-            this.flowLayoutPanel17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel17.Name = "flowLayoutPanel17";
-            this.flowLayoutPanel17.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel17.TabIndex = 20;
+            this.btn_minus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_minus.BackgroundImage")));
+            this.btn_minus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_minus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_minus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_minus.Location = new System.Drawing.Point(174, 160);
+            this.btn_minus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_minus.Name = "btn_minus";
+            this.btn_minus.Size = new System.Drawing.Size(44, 33);
+            this.btn_minus.TabIndex = 20;
             // 
-            // flowLayoutPanel18
+            // btn_six
             // 
-            this.flowLayoutPanel18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel18.BackgroundImage")));
-            this.flowLayoutPanel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel18.Location = new System.Drawing.Point(124, 160);
-            this.flowLayoutPanel18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel18.Name = "flowLayoutPanel18";
-            this.flowLayoutPanel18.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel18.TabIndex = 19;
+            this.btn_six.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_six.BackgroundImage")));
+            this.btn_six.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_six.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_six.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_six.Location = new System.Drawing.Point(124, 160);
+            this.btn_six.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_six.Name = "btn_six";
+            this.btn_six.Size = new System.Drawing.Size(44, 33);
+            this.btn_six.TabIndex = 19;
             // 
-            // flowLayoutPanel19
+            // btn_five
             // 
-            this.flowLayoutPanel19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel19.BackgroundImage")));
-            this.flowLayoutPanel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel19.Location = new System.Drawing.Point(74, 160);
-            this.flowLayoutPanel19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel19.Name = "flowLayoutPanel19";
-            this.flowLayoutPanel19.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel19.TabIndex = 18;
+            this.btn_five.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_five.BackgroundImage")));
+            this.btn_five.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_five.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_five.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_five.Location = new System.Drawing.Point(74, 160);
+            this.btn_five.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_five.Name = "btn_five";
+            this.btn_five.Size = new System.Drawing.Size(44, 33);
+            this.btn_five.TabIndex = 18;
             // 
-            // flowLayoutPanel20
+            // btn_four
             // 
-            this.flowLayoutPanel20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel20.BackgroundImage")));
-            this.flowLayoutPanel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel20.Location = new System.Drawing.Point(24, 160);
-            this.flowLayoutPanel20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel20.Name = "flowLayoutPanel20";
-            this.flowLayoutPanel20.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel20.TabIndex = 17;
+            this.btn_four.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_four.BackgroundImage")));
+            this.btn_four.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_four.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_four.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_four.Location = new System.Drawing.Point(24, 160);
+            this.btn_four.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_four.Name = "btn_four";
+            this.btn_four.Size = new System.Drawing.Size(44, 33);
+            this.btn_four.TabIndex = 17;
             // 
-            // flowLayoutPanel21
+            // btn_plus
             // 
-            this.flowLayoutPanel21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel21.BackgroundImage")));
-            this.flowLayoutPanel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel21.Location = new System.Drawing.Point(233, 201);
-            this.flowLayoutPanel21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel21.Name = "flowLayoutPanel21";
-            this.flowLayoutPanel21.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel21.TabIndex = 26;
+            this.btn_plus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_plus.BackgroundImage")));
+            this.btn_plus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_plus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_plus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_plus.Location = new System.Drawing.Point(233, 201);
+            this.btn_plus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_plus.Name = "btn_plus";
+            this.btn_plus.Size = new System.Drawing.Size(44, 33);
+            this.btn_plus.TabIndex = 26;
             // 
-            // flowLayoutPanel22
+            // btn_divide
             // 
-            this.flowLayoutPanel22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel22.BackgroundImage")));
-            this.flowLayoutPanel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel22.Location = new System.Drawing.Point(174, 201);
-            this.flowLayoutPanel22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel22.Name = "flowLayoutPanel22";
-            this.flowLayoutPanel22.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel22.TabIndex = 25;
+            this.btn_divide.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_divide.BackgroundImage")));
+            this.btn_divide.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_divide.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_divide.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_divide.Location = new System.Drawing.Point(174, 201);
+            this.btn_divide.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_divide.Name = "btn_divide";
+            this.btn_divide.Size = new System.Drawing.Size(44, 33);
+            this.btn_divide.TabIndex = 25;
             // 
-            // flowLayoutPanel23
+            // btn_three
             // 
-            this.flowLayoutPanel23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel23.BackgroundImage")));
-            this.flowLayoutPanel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel23.Location = new System.Drawing.Point(124, 201);
-            this.flowLayoutPanel23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel23.Name = "flowLayoutPanel23";
-            this.flowLayoutPanel23.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel23.TabIndex = 24;
+            this.btn_three.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_three.BackgroundImage")));
+            this.btn_three.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_three.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_three.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_three.Location = new System.Drawing.Point(124, 201);
+            this.btn_three.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_three.Name = "btn_three";
+            this.btn_three.Size = new System.Drawing.Size(44, 33);
+            this.btn_three.TabIndex = 24;
             // 
-            // flowLayoutPanel24
+            // btn_two
             // 
-            this.flowLayoutPanel24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel24.BackgroundImage")));
-            this.flowLayoutPanel24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel24.Location = new System.Drawing.Point(74, 201);
-            this.flowLayoutPanel24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel24.Name = "flowLayoutPanel24";
-            this.flowLayoutPanel24.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel24.TabIndex = 23;
+            this.btn_two.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_two.BackgroundImage")));
+            this.btn_two.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_two.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_two.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_two.Location = new System.Drawing.Point(74, 201);
+            this.btn_two.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_two.Name = "btn_two";
+            this.btn_two.Size = new System.Drawing.Size(44, 33);
+            this.btn_two.TabIndex = 23;
             // 
-            // flowLayoutPanel25
+            // btn_one
             // 
-            this.flowLayoutPanel25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel25.BackgroundImage")));
-            this.flowLayoutPanel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel25.Location = new System.Drawing.Point(24, 201);
-            this.flowLayoutPanel25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel25.Name = "flowLayoutPanel25";
-            this.flowLayoutPanel25.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel25.TabIndex = 22;
+            this.btn_one.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_one.BackgroundImage")));
+            this.btn_one.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_one.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_one.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_one.Location = new System.Drawing.Point(24, 201);
+            this.btn_one.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_one.Name = "btn_one";
+            this.btn_one.Size = new System.Drawing.Size(44, 33);
+            this.btn_one.TabIndex = 22;
             // 
-            // flowLayoutPanel27
+            // btn_equal
             // 
-            this.flowLayoutPanel27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel27.BackgroundImage")));
-            this.flowLayoutPanel27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel27.Location = new System.Drawing.Point(124, 257);
-            this.flowLayoutPanel27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel27.Name = "flowLayoutPanel27";
-            this.flowLayoutPanel27.Size = new System.Drawing.Size(203, 33);
-            this.flowLayoutPanel27.TabIndex = 30;
+            this.btn_equal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_equal.BackgroundImage")));
+            this.btn_equal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_equal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_equal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_equal.Location = new System.Drawing.Point(124, 257);
+            this.btn_equal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_equal.Name = "btn_equal";
+            this.btn_equal.Size = new System.Drawing.Size(203, 33);
+            this.btn_equal.TabIndex = 30;
             // 
-            // flowLayoutPanel29
+            // btn_dot
             // 
-            this.flowLayoutPanel29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel29.BackgroundImage")));
-            this.flowLayoutPanel29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel29.Location = new System.Drawing.Point(74, 257);
-            this.flowLayoutPanel29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel29.Name = "flowLayoutPanel29";
-            this.flowLayoutPanel29.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel29.TabIndex = 28;
+            this.btn_dot.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_dot.BackgroundImage")));
+            this.btn_dot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_dot.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_dot.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_dot.Location = new System.Drawing.Point(74, 257);
+            this.btn_dot.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_dot.Name = "btn_dot";
+            this.btn_dot.Size = new System.Drawing.Size(44, 33);
+            this.btn_dot.TabIndex = 28;
             // 
-            // flowLayoutPanel30
+            // btn_zero
             // 
-            this.flowLayoutPanel30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel30.BackgroundImage")));
-            this.flowLayoutPanel30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel30.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel30.Location = new System.Drawing.Point(24, 257);
-            this.flowLayoutPanel30.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel30.Name = "flowLayoutPanel30";
-            this.flowLayoutPanel30.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel30.TabIndex = 27;
+            this.btn_zero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_zero.BackgroundImage")));
+            this.btn_zero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_zero.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_zero.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_zero.Location = new System.Drawing.Point(24, 257);
+            this.btn_zero.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_zero.Name = "btn_zero";
+            this.btn_zero.Size = new System.Drawing.Size(44, 33);
+            this.btn_zero.TabIndex = 27;
             // 
-            // flowLayoutPanel26
+            // btn_redo
             // 
-            this.flowLayoutPanel26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel26.BackgroundImage")));
-            this.flowLayoutPanel26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel26.Location = new System.Drawing.Point(283, 37);
-            this.flowLayoutPanel26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel26.Name = "flowLayoutPanel26";
-            this.flowLayoutPanel26.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel26.TabIndex = 35;
+            this.btn_redo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_redo.BackgroundImage")));
+            this.btn_redo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_redo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_redo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_redo.Location = new System.Drawing.Point(283, 37);
+            this.btn_redo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_redo.Name = "btn_redo";
+            this.btn_redo.Size = new System.Drawing.Size(44, 33);
+            this.btn_redo.TabIndex = 35;
             // 
-            // flowLayoutPanel31
+            // btn_deleteAll
             // 
-            this.flowLayoutPanel31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel31.BackgroundImage")));
-            this.flowLayoutPanel31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel31.Location = new System.Drawing.Point(233, 37);
-            this.flowLayoutPanel31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel31.Name = "flowLayoutPanel31";
-            this.flowLayoutPanel31.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel31.TabIndex = 34;
+            this.btn_deleteAll.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_deleteAll.BackgroundImage")));
+            this.btn_deleteAll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_deleteAll.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_deleteAll.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_deleteAll.Location = new System.Drawing.Point(233, 37);
+            this.btn_deleteAll.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_deleteAll.Name = "btn_deleteAll";
+            this.btn_deleteAll.Size = new System.Drawing.Size(44, 33);
+            this.btn_deleteAll.TabIndex = 34;
             // 
-            // flowLayoutPanel32
+            // btn_pi
             // 
-            this.flowLayoutPanel32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel32.BackgroundImage")));
-            this.flowLayoutPanel32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel32.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel32.Location = new System.Drawing.Point(283, 119);
-            this.flowLayoutPanel32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel32.Name = "flowLayoutPanel32";
-            this.flowLayoutPanel32.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel32.TabIndex = 33;
+            this.btn_pi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_pi.BackgroundImage")));
+            this.btn_pi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_pi.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_pi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_pi.Location = new System.Drawing.Point(283, 119);
+            this.btn_pi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_pi.Name = "btn_pi";
+            this.btn_pi.Size = new System.Drawing.Size(44, 33);
+            this.btn_pi.TabIndex = 33;
             // 
-            // flowLayoutPanel33
+            // btn_ceilingRound
             // 
-            this.flowLayoutPanel33.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel33.BackgroundImage")));
-            this.flowLayoutPanel33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel33.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel33.Location = new System.Drawing.Point(283, 160);
-            this.flowLayoutPanel33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel33.Name = "flowLayoutPanel33";
-            this.flowLayoutPanel33.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel33.TabIndex = 32;
+            this.btn_ceilingRound.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_ceilingRound.BackgroundImage")));
+            this.btn_ceilingRound.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_ceilingRound.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_ceilingRound.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_ceilingRound.Location = new System.Drawing.Point(283, 160);
+            this.btn_ceilingRound.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_ceilingRound.Name = "btn_ceilingRound";
+            this.btn_ceilingRound.Size = new System.Drawing.Size(44, 33);
+            this.btn_ceilingRound.TabIndex = 32;
             // 
-            // flowLayoutPanel34
+            // btn_floorRound
             // 
-            this.flowLayoutPanel34.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel34.BackgroundImage")));
-            this.flowLayoutPanel34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel34.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel34.Location = new System.Drawing.Point(283, 201);
-            this.flowLayoutPanel34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel34.Name = "flowLayoutPanel34";
-            this.flowLayoutPanel34.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel34.TabIndex = 31;
+            this.btn_floorRound.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_floorRound.BackgroundImage")));
+            this.btn_floorRound.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_floorRound.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_floorRound.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_floorRound.Location = new System.Drawing.Point(283, 201);
+            this.btn_floorRound.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_floorRound.Name = "btn_floorRound";
+            this.btn_floorRound.Size = new System.Drawing.Size(44, 33);
+            this.btn_floorRound.TabIndex = 31;
             // 
-            // flowLayoutPanel5
+            // btn_square
             // 
-            this.flowLayoutPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel5.BackgroundImage")));
-            this.flowLayoutPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(24, 78);
-            this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(44, 33);
-            this.flowLayoutPanel5.TabIndex = 36;
+            this.btn_square.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_square.BackgroundImage")));
+            this.btn_square.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_square.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_square.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_square.Location = new System.Drawing.Point(24, 78);
+            this.btn_square.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_square.Name = "btn_square";
+            this.btn_square.Size = new System.Drawing.Size(44, 33);
+            this.btn_square.TabIndex = 36;
             // 
-            // panel1
+            // pnl_numbers_operations
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.flowLayoutPanel5);
-            this.panel1.Controls.Add(this.flowLayoutPanel32);
-            this.panel1.Controls.Add(this.flowLayoutPanel26);
-            this.panel1.Controls.Add(this.flowLayoutPanel31);
-            this.panel1.Controls.Add(this.flowLayoutPanel33);
-            this.panel1.Controls.Add(this.flowLayoutPanel34);
-            this.panel1.Controls.Add(this.flowLayoutPanel27);
-            this.panel1.Controls.Add(this.flowLayoutPanel29);
-            this.panel1.Controls.Add(this.flowLayoutPanel30);
-            this.panel1.Controls.Add(this.flowLayoutPanel21);
-            this.panel1.Controls.Add(this.flowLayoutPanel22);
-            this.panel1.Controls.Add(this.flowLayoutPanel23);
-            this.panel1.Controls.Add(this.flowLayoutPanel24);
-            this.panel1.Controls.Add(this.flowLayoutPanel25);
-            this.panel1.Controls.Add(this.flowLayoutPanel16);
-            this.panel1.Controls.Add(this.flowLayoutPanel17);
-            this.panel1.Controls.Add(this.flowLayoutPanel18);
-            this.panel1.Controls.Add(this.flowLayoutPanel19);
-            this.panel1.Controls.Add(this.flowLayoutPanel20);
-            this.panel1.Controls.Add(this.flowLayoutPanel11);
-            this.panel1.Controls.Add(this.flowLayoutPanel12);
-            this.panel1.Controls.Add(this.flowLayoutPanel13);
-            this.panel1.Controls.Add(this.flowLayoutPanel14);
-            this.panel1.Controls.Add(this.flowLayoutPanel15);
-            this.panel1.Controls.Add(this.flowLayoutPanel4);
-            this.panel1.Controls.Add(this.flowLayoutPanel10);
-            this.panel1.Controls.Add(this.flowLayoutPanel9);
-            this.panel1.Controls.Add(this.flowLayoutPanel8);
-            this.panel1.Controls.Add(this.flowLayoutPanel7);
-            this.panel1.Controls.Add(this.flowLayoutPanel6);
-            this.panel1.Location = new System.Drawing.Point(12, 246);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(357, 308);
-            this.panel1.TabIndex = 37;
+            this.pnl_numbers_operations.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_numbers_operations.Controls.Add(this.btn_square);
+            this.pnl_numbers_operations.Controls.Add(this.btn_pi);
+            this.pnl_numbers_operations.Controls.Add(this.btn_redo);
+            this.pnl_numbers_operations.Controls.Add(this.btn_deleteAll);
+            this.pnl_numbers_operations.Controls.Add(this.btn_ceilingRound);
+            this.pnl_numbers_operations.Controls.Add(this.btn_floorRound);
+            this.pnl_numbers_operations.Controls.Add(this.btn_equal);
+            this.pnl_numbers_operations.Controls.Add(this.btn_dot);
+            this.pnl_numbers_operations.Controls.Add(this.btn_zero);
+            this.pnl_numbers_operations.Controls.Add(this.btn_plus);
+            this.pnl_numbers_operations.Controls.Add(this.btn_divide);
+            this.pnl_numbers_operations.Controls.Add(this.btn_three);
+            this.pnl_numbers_operations.Controls.Add(this.btn_two);
+            this.pnl_numbers_operations.Controls.Add(this.btn_one);
+            this.pnl_numbers_operations.Controls.Add(this.btn_multiply);
+            this.pnl_numbers_operations.Controls.Add(this.btn_minus);
+            this.pnl_numbers_operations.Controls.Add(this.btn_six);
+            this.pnl_numbers_operations.Controls.Add(this.btn_five);
+            this.pnl_numbers_operations.Controls.Add(this.btn_four);
+            this.pnl_numbers_operations.Controls.Add(this.btn_percent);
+            this.pnl_numbers_operations.Controls.Add(this.btn_sqrt);
+            this.pnl_numbers_operations.Controls.Add(this.btn_nine);
+            this.pnl_numbers_operations.Controls.Add(this.btn_eigth);
+            this.pnl_numbers_operations.Controls.Add(this.btn_seven);
+            this.pnl_numbers_operations.Controls.Add(this.btn_showHistory);
+            this.pnl_numbers_operations.Controls.Add(this.btn_sec);
+            this.pnl_numbers_operations.Controls.Add(this.btn_ctg);
+            this.pnl_numbers_operations.Controls.Add(this.btn_tan);
+            this.pnl_numbers_operations.Controls.Add(this.btn_sin);
+            this.pnl_numbers_operations.Controls.Add(this.btn_cos);
+            this.pnl_numbers_operations.Location = new System.Drawing.Point(12, 246);
+            this.pnl_numbers_operations.Name = "pnl_numbers_operations";
+            this.pnl_numbers_operations.Size = new System.Drawing.Size(357, 308);
+            this.pnl_numbers_operations.TabIndex = 37;
             // 
-            // panel2
+            // pnl_results
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.pnl_result);
-            this.panel2.Controls.Add(this.pnl_simultaneousResult);
-            this.panel2.Location = new System.Drawing.Point(12, 49);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(356, 177);
-            this.panel2.TabIndex = 38;
+            this.pnl_results.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_results.Controls.Add(this.pnl_result);
+            this.pnl_results.Controls.Add(this.pnl_simultaneousResult);
+            this.pnl_results.Location = new System.Drawing.Point(12, 49);
+            this.pnl_results.Name = "pnl_results";
+            this.pnl_results.Size = new System.Drawing.Size(356, 177);
+            this.pnl_results.TabIndex = 38;
             // 
             // pnl_result
             // 
@@ -564,8 +564,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(381, 585);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnl_results);
+            this.Controls.Add(this.pnl_numbers_operations);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pnl_minimize);
@@ -577,8 +577,8 @@
             this.Name = "Calculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.pnl_numbers_operations.ResumeLayout(false);
+            this.pnl_results.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -591,38 +591,38 @@
         private System.Windows.Forms.FlowLayoutPanel pnl_minimize;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel7;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel9;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel10;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel17;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel18;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel19;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel20;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel21;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel22;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel23;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel24;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel25;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel27;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel29;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel30;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel26;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel31;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel32;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel33;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel34;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.FlowLayoutPanel btn_showHistory;
+        private System.Windows.Forms.FlowLayoutPanel btn_cos;
+        private System.Windows.Forms.FlowLayoutPanel btn_sin;
+        private System.Windows.Forms.FlowLayoutPanel btn_tan;
+        private System.Windows.Forms.FlowLayoutPanel btn_ctg;
+        private System.Windows.Forms.FlowLayoutPanel btn_sec;
+        private System.Windows.Forms.FlowLayoutPanel btn_percent;
+        private System.Windows.Forms.FlowLayoutPanel btn_sqrt;
+        private System.Windows.Forms.FlowLayoutPanel btn_nine;
+        private System.Windows.Forms.FlowLayoutPanel btn_eigth;
+        private System.Windows.Forms.FlowLayoutPanel btn_seven;
+        private System.Windows.Forms.FlowLayoutPanel btn_multiply;
+        private System.Windows.Forms.FlowLayoutPanel btn_minus;
+        private System.Windows.Forms.FlowLayoutPanel btn_six;
+        private System.Windows.Forms.FlowLayoutPanel btn_five;
+        private System.Windows.Forms.FlowLayoutPanel btn_four;
+        private System.Windows.Forms.FlowLayoutPanel btn_plus;
+        private System.Windows.Forms.FlowLayoutPanel btn_divide;
+        private System.Windows.Forms.FlowLayoutPanel btn_three;
+        private System.Windows.Forms.FlowLayoutPanel btn_two;
+        private System.Windows.Forms.FlowLayoutPanel btn_one;
+        private System.Windows.Forms.FlowLayoutPanel btn_equal;
+        private System.Windows.Forms.FlowLayoutPanel btn_dot;
+        private System.Windows.Forms.FlowLayoutPanel btn_zero;
+        private System.Windows.Forms.FlowLayoutPanel btn_redo;
+        private System.Windows.Forms.FlowLayoutPanel btn_deleteAll;
+        private System.Windows.Forms.FlowLayoutPanel btn_pi;
+        private System.Windows.Forms.FlowLayoutPanel btn_ceilingRound;
+        private System.Windows.Forms.FlowLayoutPanel btn_floorRound;
+        private System.Windows.Forms.FlowLayoutPanel btn_square;
+        private System.Windows.Forms.Panel pnl_numbers_operations;
+        private System.Windows.Forms.Panel pnl_results;
         private System.Windows.Forms.Panel pnl_result;
         private System.Windows.Forms.Panel pnl_simultaneousResult;
     }
