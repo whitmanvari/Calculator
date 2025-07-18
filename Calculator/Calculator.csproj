@@ -53,6 +53,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\CalculatorModel.cs" />
+    <Compile Include="Operations\BasicOperations.cs" />
+    <Compile Include="Operations\IOperations.cs" />
+    <Compile Include="Operations\TrigonometricOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
