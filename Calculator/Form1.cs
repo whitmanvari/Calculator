@@ -21,5 +21,22 @@ namespace Calculator
         {
             this.Close();
         }
+
+        private void pnl_maximize_Paint(object sender, PaintEventArgs e)
+        {
+            if(this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void pnl_minimize_Paint(object sender, PaintEventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

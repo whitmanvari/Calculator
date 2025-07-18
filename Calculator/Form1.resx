@@ -214,7 +214,7 @@
         /wLquqP9heDy+QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="flowLayoutPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pnl_maximize.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAHqZJREFUeF7t
         3Xn8v/Wc7/H2VaRkaSFMlkhxCGHEEQZjuRmSso0t2xnL2GkcyxjLMJZhHDpmHEu2HBo7ZR9FJEKKJA0S
@@ -350,7 +350,7 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAK26ddf4DN5ONkBELF4cAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="flowLayoutPanel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pnl_minimize.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAABQlJREFUeF7t
         1rENAkEQBMGLDx+f/JMAHg+/jR+pSuoQdjUHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

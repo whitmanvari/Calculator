@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculator));
             this.pnl_exit = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnl_maximize = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnl_minimize = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
@@ -66,8 +66,8 @@
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pnl_simultaneousResult = new System.Windows.Forms.Panel();
             this.pnl_result = new System.Windows.Forms.Panel();
+            this.pnl_simultaneousResult = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -85,29 +85,31 @@
             this.pnl_exit.TabIndex = 0;
             this.pnl_exit.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_exit_Paint);
             // 
-            // flowLayoutPanel1
+            // pnl_maximize
             // 
-            this.flowLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel1.BackgroundImage")));
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 4);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(49, 27);
-            this.flowLayoutPanel1.TabIndex = 1;
+            this.pnl_maximize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnl_maximize.BackgroundImage")));
+            this.pnl_maximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnl_maximize.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_maximize.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pnl_maximize.Location = new System.Drawing.Point(272, 4);
+            this.pnl_maximize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnl_maximize.Name = "pnl_maximize";
+            this.pnl_maximize.Size = new System.Drawing.Size(49, 27);
+            this.pnl_maximize.TabIndex = 1;
+            this.pnl_maximize.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_maximize_Paint);
             // 
-            // flowLayoutPanel2
+            // pnl_minimize
             // 
-            this.flowLayoutPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel2.BackgroundImage")));
-            this.flowLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(223, 4);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(49, 27);
-            this.flowLayoutPanel2.TabIndex = 2;
+            this.pnl_minimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnl_minimize.BackgroundImage")));
+            this.pnl_minimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnl_minimize.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_minimize.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pnl_minimize.Location = new System.Drawing.Point(223, 4);
+            this.pnl_minimize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnl_minimize.Name = "pnl_minimize";
+            this.pnl_minimize.Size = new System.Drawing.Size(49, 27);
+            this.pnl_minimize.TabIndex = 2;
+            this.pnl_minimize.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_minimize_Paint);
             // 
             // label1
             // 
@@ -539,14 +541,6 @@
             this.panel2.Size = new System.Drawing.Size(356, 177);
             this.panel2.TabIndex = 38;
             // 
-            // pnl_simultaneousResult
-            // 
-            this.pnl_simultaneousResult.Location = new System.Drawing.Point(197, 3);
-            this.pnl_simultaneousResult.Name = "pnl_simultaneousResult";
-            this.pnl_simultaneousResult.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.pnl_simultaneousResult.Size = new System.Drawing.Size(158, 44);
-            this.pnl_simultaneousResult.TabIndex = 0;
-            // 
             // pnl_result
             // 
             this.pnl_result.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -555,6 +549,14 @@
             this.pnl_result.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.pnl_result.Size = new System.Drawing.Size(316, 104);
             this.pnl_result.TabIndex = 1;
+            // 
+            // pnl_simultaneousResult
+            // 
+            this.pnl_simultaneousResult.Location = new System.Drawing.Point(197, 3);
+            this.pnl_simultaneousResult.Name = "pnl_simultaneousResult";
+            this.pnl_simultaneousResult.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.pnl_simultaneousResult.Size = new System.Drawing.Size(158, 44);
+            this.pnl_simultaneousResult.TabIndex = 0;
             // 
             // Calculator
             // 
@@ -566,8 +568,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.pnl_minimize);
+            this.Controls.Add(this.pnl_maximize);
             this.Controls.Add(this.pnl_exit);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -585,8 +587,8 @@
         #endregion
 
         private System.Windows.Forms.FlowLayoutPanel pnl_exit;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel pnl_maximize;
+        private System.Windows.Forms.FlowLayoutPanel pnl_minimize;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
