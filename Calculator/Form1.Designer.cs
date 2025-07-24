@@ -66,8 +66,8 @@
             this.btn_square = new System.Windows.Forms.FlowLayoutPanel();
             this.pnl_numbers_operations = new System.Windows.Forms.Panel();
             this.pnl_results = new System.Windows.Forms.Panel();
-            this.pnl_result = new System.Windows.Forms.Panel();
-            this.pnl_simultaneousResult = new System.Windows.Forms.Panel();
+            this.lbl_result = new System.Windows.Forms.Label();
+            this.lbl_currentResult = new System.Windows.Forms.Label();
             this.pnl_numbers_operations.SuspendLayout();
             this.pnl_results.SuspendLayout();
             this.SuspendLayout();
@@ -78,12 +78,12 @@
             this.pnl_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pnl_exit.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnl_exit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pnl_exit.Location = new System.Drawing.Point(323, 4);
+            this.pnl_exit.Location = new System.Drawing.Point(359, 4);
             this.pnl_exit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_exit.Name = "pnl_exit";
             this.pnl_exit.Size = new System.Drawing.Size(49, 27);
             this.pnl_exit.TabIndex = 3;
-            this.pnl_exit.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_exit_Paint);
+            this.pnl_exit.Click += new System.EventHandler(this.pnl_exit_Click);
             // 
             // pnl_maximize
             // 
@@ -91,12 +91,12 @@
             this.pnl_maximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pnl_maximize.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnl_maximize.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pnl_maximize.Location = new System.Drawing.Point(272, 4);
+            this.pnl_maximize.Location = new System.Drawing.Point(314, 4);
             this.pnl_maximize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_maximize.Name = "pnl_maximize";
             this.pnl_maximize.Size = new System.Drawing.Size(49, 27);
             this.pnl_maximize.TabIndex = 2;
-            this.pnl_maximize.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_maximize_Paint);
+            this.pnl_maximize.Click += new System.EventHandler(this.pnl_maximize_Click);
             // 
             // pnl_minimize
             // 
@@ -104,12 +104,12 @@
             this.pnl_minimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pnl_minimize.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnl_minimize.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pnl_minimize.Location = new System.Drawing.Point(223, 4);
+            this.pnl_minimize.Location = new System.Drawing.Point(269, 4);
             this.pnl_minimize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_minimize.Name = "pnl_minimize";
             this.pnl_minimize.Size = new System.Drawing.Size(49, 27);
             this.pnl_minimize.TabIndex = 1;
-            this.pnl_minimize.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_minimize_Paint);
+            this.pnl_minimize.Click += new System.EventHandler(this.pnl_minimize_Click);
             // 
             // label1
             // 
@@ -117,7 +117,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(62, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 25);
+            this.label1.Size = new System.Drawing.Size(183, 32);
             this.label1.TabIndex = 3;
             this.label1.Text = "Calculator-Hex";
             // 
@@ -528,42 +528,43 @@
             this.pnl_numbers_operations.Controls.Add(this.btn_cos);
             this.pnl_numbers_operations.Location = new System.Drawing.Point(12, 246);
             this.pnl_numbers_operations.Name = "pnl_numbers_operations";
-            this.pnl_numbers_operations.Size = new System.Drawing.Size(357, 308);
+            this.pnl_numbers_operations.Size = new System.Drawing.Size(396, 308);
             this.pnl_numbers_operations.TabIndex = 37;
             // 
             // pnl_results
             // 
             this.pnl_results.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl_results.Controls.Add(this.pnl_result);
-            this.pnl_results.Controls.Add(this.pnl_simultaneousResult);
+            this.pnl_results.Controls.Add(this.lbl_result);
+            this.pnl_results.Controls.Add(this.lbl_currentResult);
             this.pnl_results.Location = new System.Drawing.Point(12, 49);
             this.pnl_results.Name = "pnl_results";
-            this.pnl_results.Size = new System.Drawing.Size(356, 177);
+            this.pnl_results.Size = new System.Drawing.Size(396, 177);
             this.pnl_results.TabIndex = 38;
             // 
-            // pnl_result
+            // lbl_result
             // 
-            this.pnl_result.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl_result.Location = new System.Drawing.Point(40, 72);
-            this.pnl_result.Name = "pnl_result";
-            this.pnl_result.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.pnl_result.Size = new System.Drawing.Size(316, 104);
-            this.pnl_result.TabIndex = 1;
+            this.lbl_result.AutoSize = true;
+            this.lbl_result.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_result.Location = new System.Drawing.Point(225, 110);
+            this.lbl_result.Name = "lbl_result";
+            this.lbl_result.Size = new System.Drawing.Size(0, 45);
+            this.lbl_result.TabIndex = 0;
             // 
-            // pnl_simultaneousResult
+            // lbl_currentResult
             // 
-            this.pnl_simultaneousResult.Location = new System.Drawing.Point(197, 3);
-            this.pnl_simultaneousResult.Name = "pnl_simultaneousResult";
-            this.pnl_simultaneousResult.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.pnl_simultaneousResult.Size = new System.Drawing.Size(158, 44);
-            this.pnl_simultaneousResult.TabIndex = 0;
+            this.lbl_currentResult.AutoSize = true;
+            this.lbl_currentResult.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl_currentResult.Location = new System.Drawing.Point(228, 16);
+            this.lbl_currentResult.Name = "lbl_currentResult";
+            this.lbl_currentResult.Size = new System.Drawing.Size(0, 28);
+            this.lbl_currentResult.TabIndex = 0;
             // 
             // Calculator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(381, 585);
+            this.ClientSize = new System.Drawing.Size(420, 585);
             this.Controls.Add(this.pnl_results);
             this.Controls.Add(this.pnl_numbers_operations);
             this.Controls.Add(this.flowLayoutPanel3);
@@ -579,6 +580,7 @@
             this.Text = "Calculator";
             this.pnl_numbers_operations.ResumeLayout(false);
             this.pnl_results.ResumeLayout(false);
+            this.pnl_results.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -623,8 +625,8 @@
         private System.Windows.Forms.FlowLayoutPanel btn_square;
         private System.Windows.Forms.Panel pnl_numbers_operations;
         private System.Windows.Forms.Panel pnl_results;
-        private System.Windows.Forms.Panel pnl_result;
-        private System.Windows.Forms.Panel pnl_simultaneousResult;
+        private System.Windows.Forms.Label lbl_result;
+        private System.Windows.Forms.Label lbl_currentResult;
     }
 }
 
